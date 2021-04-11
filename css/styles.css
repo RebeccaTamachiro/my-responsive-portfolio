@@ -194,14 +194,25 @@ p {
     margin: 0px;
   }
 
-  .featured-projects h2 {
-    text-align: center;
-  }
   .featured-projects p {
-    text-align: left;
     font-size: 16px;
     font-weight: normal;
     line-height: 1.5;
-    padding: 16px;
+  }
+
+  .btn-darkmode {
+    display: block;
+    margin: 0 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  .featured-projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .featured-projects p {
+    padding: 20px;
   }
 }
