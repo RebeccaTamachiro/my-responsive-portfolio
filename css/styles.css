@@ -9,6 +9,7 @@
 body {
   background-color: var(--darkmode-background);
   max-width: 1024px;
+  margin: 0 auto;
 }
 
 h1,
