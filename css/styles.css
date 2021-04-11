@@ -25,7 +25,7 @@ p {
   color: var(--darkmode-text);
 }
 
-.homepage-caption h1 {
+h1 {
   font-size: 72px;
 }
 
@@ -44,11 +44,27 @@ p {
   font-family: "PT Sans", sans-serif;
   font-size: 32px;
   font-weight: bold;
-  text-decoration: none;
+  min-width: 200px;
 }
 
 .about-link {
+  text-decoration: none;
   color: var(--brand-color-yellow);
+}
+
+.hero-navigation-about-left {
+  min-width: 380px;
+  max-width: 380px;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: var(--brand-color-blue);
+}
+
+.hero-navigation-contact-left {
+  min-width: 359px;
+  max-width: 359px;
 }
 
 .hero-navigation-arrows {
