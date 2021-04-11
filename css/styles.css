@@ -44,17 +44,30 @@ h1 {
   font-family: "PT Sans", sans-serif;
   font-size: 32px;
   font-weight: bold;
-  min-width: 200px;
+  min-width: 210px;
+}
+
+.hero-navigation-arrows {
+  font-size: smaller;
 }
 
 .about-link {
   text-decoration: none;
   color: var(--brand-color-yellow);
+  margin-left: 21px;
+}
+
+.about-link:hover {
+  color: var(--brand-color-yellow);
+  font-size: 33px;
+  text-decoration: underline;
+  transition: ease-in-out 200ms;
 }
 
 .hero-navigation-about-left {
   min-width: 380px;
   max-width: 380px;
+  color: var(--darkmode-background);
 }
 
 .contact-link {
@@ -62,15 +75,40 @@ h1 {
   color: var(--brand-color-blue);
 }
 
+.contact-link:hover {
+  color: var(--brand-color-blue);
+  font-size: 33px;
+  text-decoration: underline;
+  transition: ease-in-out 200ms;
+}
+
 .hero-navigation-contact-left {
   min-width: 359px;
   max-width: 359px;
+  color: var(--darkmode-background);
 }
 
-.hero-navigation-arrows {
-  font-size: smaller;
+.projects-link {
+  text-decoration: none;
+  color: var(--brand-color-pink);
 }
 
-.about-link:hover {
-  color: var(--brand-color-yellow);
+.projects-link:hover {
+  color: var(--brand-color-pink);
+  font-size: 33px;
+  text-decoration: underline;
+  transition: ease-in-out 200ms;
+}
+
+@media (max-width: 568px) {
+  .hero-navigation-links {
+    padding-left: 0px;
+  }
+
+  .about-link {
+    margin-left: 0px;
+  }
+  .contact-link {
+    display: none;
+  }
 }
