@@ -8,6 +8,8 @@
 
 body {
   background-color: var(--darkmode-background);
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 h1,
@@ -27,6 +29,10 @@ p {
 
 h1 {
   font-size: 72px;
+}
+
+h2 {
+  font-size: 48px;
 }
 
 .homepage-caption {
@@ -49,6 +55,7 @@ h1 {
 .hero-navigation {
   display: block;
   margin-left: 50px;
+  margin-bottom: 70px;
 }
 
 .hero-navigation-links {
@@ -111,9 +118,31 @@ h1 {
   transition: ease-in-out 200ms;
 }
 
+.featured-projects {
+  margin: 50px;
+}
+
+.project-thumbnail {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.project-thumbnail-frame {
+  max-width: 326px;
+  display: block;
+  margin: 0 auto;
+  padding: 11px;
+  background-color: var(--brand-color-pink);
+}
+
 @media (max-width: 568px) {
   h1 {
     font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
   }
 
   .homepage-caption {
