@@ -125,19 +125,10 @@ p {
 }
 
 .project-thumbnail {
-  min-width: 280px;
+  min-width: 100px;
   max-width: 380px;
   display: block;
   margin: 0 auto;
-}
-
-.project-thumbnail-frame {
-  min-width: 300px;
-  max-width: 400px;
-  display: block;
-  margin: 0 auto;
-  padding: 11px;
-  background-color: var(--brand-color-pink);
 }
 
 .btn-darkmode {
