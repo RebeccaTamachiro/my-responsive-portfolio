@@ -29,6 +29,12 @@ h1 {
   font-size: 72px;
 }
 
+.homepage-caption {
+  display: block;
+  margin: 180px 0 0 50px;
+  line-height: 1.5;
+}
+
 .homepage-caption h2 {
   font-family: "PT Sans", sans-serif;
   font-size: 32px;
@@ -38,6 +44,11 @@ h1 {
 .homepage-caption p {
   font-size: 48px;
   font-weight: bold;
+}
+
+.hero-navigation {
+  display: block;
+  margin-left: 50px;
 }
 
 .hero-navigation-links {
@@ -101,8 +112,32 @@ h1 {
 }
 
 @media (max-width: 568px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .homepage-caption {
+    margin: 130px 0 0 20px;
+  }
+
+  .homepage-caption h2 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .homepage-caption p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .hero-navigation {
+    margin-left: 20px;
+  }
+
   .hero-navigation-links {
     padding-left: 0px;
+    font-size: 20px;
   }
 
   .about-link {
