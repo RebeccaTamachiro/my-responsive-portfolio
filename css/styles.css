@@ -1,3 +1,15 @@
+:root {
+  --darkmode-text: white;
+  --darkmode-background: #1f1c25;
+  --brand-color-pink: #dd1367;
+  --brand-color-yellow: #ffe01b;
+  --brand-color-blue: #26bde2;
+}
+
+body {
+  background-color: var(--darkmode-background);
+}
+
 h1,
 h2,
 h3,
@@ -5,14 +17,44 @@ h4,
 h5,
 h6 {
   font-family: "Thasadith", sans-serif;
+  color: var(--darkmode-text);
 }
 
 p {
   font-family: "PT Sans", sans-serif;
+  color: var(--darkmode-text);
 }
 
-.homepage-caption h2,
-p {
+.homepage-caption h1 {
+  font-size: 72px;
+}
+
+.homepage-caption h2 {
   font-family: "PT Sans", sans-serif;
+  font-size: 32px;
   font-weight: bold;
+}
+
+.homepage-caption p {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-navigation-links {
+  font-family: "PT Sans", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.about-link {
+  color: var(--brand-color-yellow);
+}
+
+.hero-navigation-arrows {
+  font-size: smaller;
+}
+
+.about-link:hover {
+  color: var(--brand-color-yellow);
 }
