@@ -85,8 +85,8 @@ p {
 }
 
 .hero-navigation-about-left {
-  min-width: 380px;
-  max-width: 380px;
+  min-width: 359px;
+  max-width: 359px;
   color: var(--darkmode-background);
 }
 
@@ -141,6 +141,15 @@ p {
   letter-spacing: 3px;
 }
 
+.about-hero {
+  margin-top: 180px;
+}
+
+.about-mobile-picture {
+  display: block;
+  margin: 0 auto;
+}
+
 @media (max-width: 568px) {
   h1 {
     font-size: 40px;
@@ -170,7 +179,7 @@ p {
   }
 
   .hero-navigation-links {
-    padding-left: 0px;
+    padding: 0px;
     font-size: 20px;
   }
 
@@ -206,6 +215,9 @@ p {
   .btn-darkmode {
     display: block;
     margin: 0 25px;
+  }
+  .hero-navigation-about-left {
+    display: none;
   }
 }
 
