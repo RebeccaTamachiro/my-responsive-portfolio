@@ -28,6 +28,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  font-weight: bold;
 }
 
 p {
@@ -124,13 +125,6 @@ p {
   margin: 50px;
 }
 
-.project-thumbnail {
-  min-width: 100px;
-  max-width: 380px;
-  display: block;
-  margin: 0 auto;
-}
-
 .btn-darkmode {
   background-color: white;
   border-radius: 50pt;
@@ -145,6 +139,10 @@ p {
   margin-top: 180px;
 }
 
+.about-hero h1,
+h3 {
+  font-weight: bold;
+}
 .core-values h3 {
   font-size: 48px;
   margin-bottom: 55px;
@@ -238,10 +236,15 @@ p {
     margin: 0px;
   }
 
+  .featured-projects p {
+    text-align: center;
+  }
+
   p {
     font-size: 16px;
     font-weight: normal;
     line-height: 1.5;
+    padding: 0;
   }
 
   .btn-darkmode {
@@ -278,7 +281,11 @@ p {
   }
 
   .featured-projects p {
-    padding: 20px;
+    margin-bottom: 40px;
+  }
+
+  .womens-football-description {
+    margin-top: 50px;
   }
 
   .first-core-value {
