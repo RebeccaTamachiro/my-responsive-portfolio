@@ -9,7 +9,10 @@
 body {
   background-color: var(--darkmode-background);
   max-width: 100%;
-  margin: 0 100px;
+}
+
+.page-content {
+  padding: 0 100px;
 }
 
 h1,
@@ -203,13 +206,11 @@ a:hover {
 }
 
 footer {
-  background-color:#828589;
-  margin: 0;
-  padding: 0;
+  background-color: rgb(130, 133, 137, 0.7);
 }
 
-footer small {
-  color: var(--darkmode-text);
+footer p {
+  margin-bottom: 8px;
 }
 
 footer a {
@@ -218,6 +219,11 @@ footer a {
 
 footer .social-links {
   margin: 0 10px;
+}
+
+.open-sourced-note p {
+  text-align: center;
+  font-size: 14px;
 }
 
 @media (max-width: 568px) {
@@ -308,11 +314,23 @@ footer .social-links {
   .third-core-value {
     margin: 0;
   }
+
+  footer p {
+    font-size: 16px;
+  }
+
+  footer small {
+    font-size: 14px;
+  }
+
+  .open-sourced-note p {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 992px) {
-  body {
-    margin: 0 20px;
+  .page-content {
+    padding: 0 20px;
   }
 
   .featured-projects h2 {
