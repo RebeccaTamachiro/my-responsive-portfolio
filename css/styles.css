@@ -76,13 +76,13 @@ p {
   text-decoration: none;
   color: var(--brand-color-yellow);
   margin-left: 21px;
+  transition: all ease-in-out 200ms;
 }
 
 .about-link:hover {
   color: var(--brand-color-yellow);
   font-size: 33px;
   text-decoration: underline;
-  transition: ease-in-out 200ms;
 }
 
 .hero-navigation-about-left {
@@ -94,13 +94,13 @@ p {
 .contact-link {
   text-decoration: none;
   color: var(--brand-color-blue);
+  transition: all ease-in-out 200ms;
 }
 
 .contact-link:hover {
   color: var(--brand-color-blue);
   font-size: 33px;
   text-decoration: underline;
-  transition: ease-in-out 200ms;
 }
 
 .hero-navigation-contact-left {
@@ -112,13 +112,13 @@ p {
 .projects-link {
   text-decoration: none;
   color: var(--brand-color-pink);
+  transition: all ease-in-out 200ms;
 }
 
 .projects-link:hover {
   color: var(--brand-color-pink);
   font-size: 33px;
   text-decoration: underline;
-  transition: ease-in-out 200ms;
 }
 
 .featured-projects {
@@ -139,11 +139,8 @@ p {
   margin-top: 180px;
 }
 
-.about-hero h1,
-h3 {
-  font-weight: bold;
-}
 .core-values h3 {
+  font-weight: bold;
   font-size: 48px;
   margin-bottom: 55px;
 }
@@ -178,6 +175,28 @@ h3 {
 
 .third-core-value p {
   color: var(--brand-color-blue);
+}
+
+.contact-information h2 {
+  font-size: 72px;
+  font-weight: normal;
+  margin: 60px 0 40px 0;
+}
+
+.contact-information p {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.contact-information a {
+  text-decoration: none;
+  color: var(--darkmode-text);
+  transition: all ease-in-out 200ms;
+}
+
+.contact-information a:hover {
+  text-decoration: underline;
+  color: var(--darkmode-text);
 }
 
 @media (max-width: 568px) {
