@@ -82,7 +82,6 @@ a:hover {
   font-family: "PT Sans", sans-serif;
   font-size: 32px;
   font-weight: bold;
-  min-width: 210px;
 }
 
 .hero-navigation-arrows {
@@ -103,8 +102,6 @@ a:hover {
 }
 
 .hero-navigation-about-left {
-  min-width: 359px;
-  max-width: 359px;
   color: var(--darkmode-background);
 }
 
@@ -121,8 +118,6 @@ a:hover {
 }
 
 .hero-navigation-contact-left {
-  min-width: 359px;
-  max-width: 359px;
   color: var(--darkmode-background);
 }
 
@@ -209,16 +204,6 @@ nav .active {
   border-bottom: 2px solid var(--darkmode-text);
 }
 
-nav li {
-  display: inline;
-  list-style: none;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-
 footer,
 .navigation-bar {
   background-color: #64656b;
@@ -234,7 +219,7 @@ footer a,
 }
 
 footer .social-links,
-.navigation-links {
+.navbar-links {
   margin: 0 10px;
 }
 
@@ -277,7 +262,6 @@ footer .social-links,
   }
 
   .hero-navigation-links {
-    padding: 0px;
     font-size: 20px;
   }
 
@@ -354,6 +338,14 @@ footer .social-links,
 @media (max-width: 992px) {
   .page-content {
     padding: 0 20px;
+  }
+
+  .hero-navigation-links {
+    padding: 0;
+  }
+
+  .about-link {
+    margin: 0;
   }
 
   .featured-projects h2 {
