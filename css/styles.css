@@ -228,7 +228,8 @@ footer p {
   margin-bottom: 8px;
 }
 
-footer a {
+footer a,
+.linkedin-text-link {
   text-decoration: underline;
 }
 
@@ -326,7 +327,8 @@ footer .social-links,
     font-size: 32px;
   }
 
-  .core-values p, .contact-information p {
+  .core-values p,
+  .contact-information p {
     font-size: 20px;
   }
 
