@@ -52,6 +52,10 @@ a:hover {
   color: var(--brand-color-blue);
 }
 
+.project-info a {
+  text-decoration: underline;
+}
+
 .grid-spacing,
 .anchor-placement {
   color: var(--darkmode-background);

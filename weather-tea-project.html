@@ -34,10 +34,10 @@
     <div class="container-fluid page-content">
       <div class="container-fluid project-hero">
         <h1 class="mb-0">Weather Tea React</h1>
-        <h2 class="mt-0">A weather forecast app you can explore and play with</h2>
+        <h2 class="mt-0 mb-5">A weather forecast app you can explore and play with</h2>
         <img src="/images/weather-tea-banner.png" class="img-fluid d-block m-auto"/>
       </div>
-      <div class="container-fluid project-info mt-5">
+      <div class="container-fluid project-info my-5">
         <h3>Why have I built it</h3>
           <p>
           Interactivity. Nowadays it is a key element to make people engage with a certain content and it is basically everywhere on the internet.
@@ -45,36 +45,39 @@
           <p>As I coded this project - not for anyone else, but as a personal effort within the context of a SheCodes workshop -, I
           knew I wanted to take the opportunity to create something a little bit different and that could be appealing for people
           to explore in a fun way.</p>
-        <div class="row">
+        <div class="row my-5">
           <div class="col my-auto">
-            <img src="/images/weather-tea-components.png" class="img-fluid d-block m-auto"
+            <img src="/images/weather-tea-components.png" class="img-fluid d-block m-auto w-75"
             alt="Rebecca portfolio profile picture" />
           </div>
           <div class="col">
             <h3>The Concept</h3>
             <p>
-            By the time I started this project, I had already built a Vanilla JavaScript version of the same idea. This meant I
-            could use the previous result as a starting point and, based on that, have a clearer vision of what were the sections of
-            the app that could be translated into separate React components.
+            By the time I started the Weather Tea React, I had already built a Vanilla JavaScript version of the same idea. This meant I
+            could use the previous result as a starting point and, based on that, have a clearer vision of what were the sections that could be translated into separate React components.
             </p>
             <p>
             This segmentation allowed for better organization of the code but it also implied a logic that made it easier to
-            recreate any given part of the app and adapt it to different contexts or styling. In the end it was so effortless to add
-            interactive content to the screen that I decided to dive right into it and duplicate the whole app.
+            recreate any given part of the app and adapt it to different contexts or styling.
+            </p>
+            <p>
+            In the end it was so effortless to add
+            interactive content to the screen that I decided to dive right into it and duplicate it all, creating the Weather Snack 😜
             </p>
           </div>
         </div>
         <h3>Down to code</h3>
-        <img src="/images/Code snap.png" class="img-fluid d-block m-auto"/>
+        <img src="/images/weather-tea-code-snap.png" class="img-fluid d-block mx-auto my-4"/>
         <p>
           So if you look into it, both versions work in the exact same way: most of the components I had identified on the draft
           are their own JavaScript files - with a few additions as I tried to use grids to make the app mobile friendly -, and
           these separate files handle all the calculations and mapping of the API data, leaving the styling to be handled on the
           parent component.
         </p>
-        <p>As a consequence, all that was left for me to do was add the word ‘Snack’ to my classes and adjust the CSS file, and
-        then use conditional rendering on the main App.js to allow the switch between Weather Tea or WeatherSnack.
+        <p>As a consequence, all I had to do was add the word ‘Snack’ to my classes and adjust the CSS file accordingly, and
+        then use conditional rendering on the main App.js to allow the switch between Weather Tea or WeatherSnack. Or "actually, both".
         </p>
+        <p>PS: If you did not understand this ending, stop everything and go play with the <a href="https://tender-thompson-d41e01.netlify.app/" target="blank">Weather Tea React</a>.</p>
       </div>
     </div>
     <footer>
