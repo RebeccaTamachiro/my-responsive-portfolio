@@ -246,7 +246,7 @@ footer .social-links,
     font-size: 40px;
   }
 
-  h2 {
+  h2, h3 {
     font-size: 32px;
   }
 
@@ -254,7 +254,7 @@ footer .social-links,
     margin: 130px 0 0 20px;
   }
 
-  .homepage-caption h2 {
+  .homepage-caption h2, .project-hero h2 {
     font-family: "PT Sans", sans-serif;
     font-size: 20px;
     font-weight: bold;
