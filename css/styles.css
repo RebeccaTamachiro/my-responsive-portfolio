@@ -144,6 +144,11 @@ a:hover {
   margin: 50px;
 }
 
+.read-more-link {
+  text-decoration: underline;
+  color: var(--brand-color-blue);
+}
+
 .btn-darkmode {
   background-color: white;
   border-radius: 50pt;
