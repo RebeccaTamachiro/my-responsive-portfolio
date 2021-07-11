@@ -22,7 +22,7 @@ As this was a project I started after learning React, one of the first requireme
 
 The 2019 FIFA Women's World Cup had just been on and with more and more people (finally) giving the women's game a bit of attention I thought it could be a cool idea to let visitors search for different countries and learn how they did on the tournament.
 
-I was also dreaming high in terms of maybe being able to set up a simple database to pull this information from; and in terms of API, having curated news and displaying live game *scores*.
+I was also dreaming high in terms of maybe being able to set up a simple database to pull this information from; and in terms of API, having curated news and displaying live game scores.
 
 Basically an all-in-one website with everything you needed to know about women's football.
 
@@ -30,3 +30,6 @@ Basically an all-in-one website with everything you needed to know about women's
 
 <!--Using API and an online JSON storage to display curated content about the women's game. -->
 
+After searching for database and API options and documenting the information on Trello cards, I soon noticed I would have to change the approach for some of the intended features. The API for live scores was paid, so this one was removed, and what I implemented in the end was only the curated news and the FIFA world cup interactive search.
+
+To fetch specific info depending on the country, I used an online JSON storage that supported http calls. This way I could manage the content directly on the JSON object and continue to use Axios to get the information. As soon as the response is captured from the storage, a piece of code can map its atributes to the values I displayed on screen.
