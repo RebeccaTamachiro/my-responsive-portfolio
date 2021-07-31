@@ -35,11 +35,11 @@
     <div class="container-fluid page-content">
       <div class="container-fluid project-hero">
         <div class="row">
-          <div class="col-xl-7">
+          <div class="col-xl-8">
             <h1 class="mb-0">Women's Football website</h1>
             <h2 class="mt-0 mb-3">For visibility, worship and API practice</h2>
           </div>
-          <div class="col-xl-5">
+          <div class="col-xl-4">
             <a href="https://www.loom.com/share/a0eccb7342354f64aeb0a5fcb45a1605" target="_blank" class="mx-auto my-3 btn btn-darkmode"
               title="Launch Womens Football website demo">
               Launch Demo <i class="fas fa-external-link-alt"></i>
@@ -51,7 +51,12 @@
       <div class="container-fluid project-info my-5">
         <h3>Why have I built it</h3>
         <p>
-          Paragraph
+          Team work, strategy, and a clear objective. The way these aspects can apply both to football itself and to this project
+          is almost a coincidence, but I thought this could be a good way to start talking about the Women's Football website.
+        </p>
+        <p>  
+          Although I was still coding on my own at the time, for this project I wanted to explore having a predifined and more
+          ambitious end-goal, and then also committing to organize my work using a <a href="https://trello.com/b/rYfBu3Yf/wf-website-revamp">Trello board</a>.
         </p>
         <div class="row my-5">
           <div class="col-xl-6 my-auto">
@@ -61,12 +66,22 @@
           <div class="col">
             <h3>The Concept</h3>
             <p>
-              Paragraph
+              As this was a project I started after learning React, one of the first requirements I set was that it had to have
+              interactive content.
+            </p>
+            <p>
+              The 2019 FIFA Women's World Cup had just been on and with more and more people (finally) giving the women's game a bit
+              of attention I thought it could be a cool idea to let visitors search for different countries and learn how they did on
+              the tournament.
             </p>
             <img src="/images/#" class="img-fluid d-block d-xl-none mx-auto mb-3 rounded"
               alt="R" />
             <p>
-              Paragraph
+              I was also dreaming high in terms of maybe being able to set up a simple database to pull this information from; and in
+              terms of API, having curated news and displaying live game scores.
+            </p>
+            <p>  
+              Basically a future all-in-one website with everything you needed to know about women's football.
             </p>
           </div>
         </div>
@@ -74,7 +89,15 @@
         <img src="/images/#" class="img-fluid d-none d-lg-block mx-auto my-4 rounded" />
         <img src="/images/#" class="img-fluid d-block d-lg-none mx-auto my-4 rounded" />
         <p>
-         Paragraph
+        After searching for database and API options and documenting the information on Trello cards, I soon noticed I would
+        have to change the approach for some of the intended features. The API for live scores was paid, so this one was
+        removed, and what I implemented in the end was only the curated news and the FIFA World Cup interactive search.
+        </p>
+        <p>
+        To fetch specific info depending on the country, I used an online JSON storage that supported http calls. This way I
+        could manage the content directly on the JSON object and continue to use Axios to get the information. As soon as the
+        response is captured from the storage, a piece of code can map its atributes to the values and pass them to be displayed
+        on what I called the SearchedTeam Reach component.
         </p>
       </div>
     </div>

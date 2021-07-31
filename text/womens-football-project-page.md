@@ -30,6 +30,6 @@ Basically an all-in-one website with everything you needed to know about women's
 
 <!--Using API and an online JSON storage to display curated content about the women's game. -->
 
-After searching for database and API options and documenting the information on Trello cards, I soon noticed I would have to change the approach for some of the intended features. The API for live scores was paid, so this one was removed, and what I implemented in the end was only the curated news and the FIFA world cup interactive search.
+After searching for database and API options and documenting the information on Trello cards, I soon noticed I would have to change the approach for some of the intended features. The API for live scores was paid, so this one was removed, and what I implemented in the end was only the curated news and the FIFA World Cup interactive search.
 
-To fetch specific info depending on the country, I used an online JSON storage that supported http calls. This way I could manage the content directly on the JSON object and continue to use Axios to get the information. As soon as the response is captured from the storage, a piece of code can map its atributes to the values I displayed on screen.
+To fetch specific info depending on the country, I used an online JSON storage that supported http calls. This way I could manage the content directly on the JSON object and continue to use Axios to get the information. As soon as the response is captured from the storage, a piece of code can map its atributes to the values and pass them to be displayed on what I called the SearchedTeam Reach component.
