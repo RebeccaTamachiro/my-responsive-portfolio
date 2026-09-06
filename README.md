@@ -1,8 +1,9 @@
 # Rebecca Tamachiro's Work Portfolio
 
-This website was initially created as the final project for a [SheCodes Responsive](https://www.shecodes.io/responsive) workshop that I took on March/ April 2021.
+> [!NOTE]
+> This repo is archived for reference purposes only. You can find recent samples of my work on the [Cloudflare docs repo](https://github.com/cloudflare/cloudflare-docs/pulls?q=is%3Apr+author%3ARebeccaTamachiro+is%3Aclosed) or on my [LinkedIn profile](https://www.linkedin.com/in/rebeccatamachiro).
 
-For now, its live version can be accessed on https://affectionate-clarke-6f2167.netlify.app/ and a board for bugs and planned improvements has been created using [Trello](https://trello.com/b/xVJqfsqD/portfolio-continuous-development).
+This website was initially created as the final project for a [SheCodes Responsive](https://www.shecodes.io/responsive) workshop that I took on March/ April 2021.
 
 Following the workshop focus, the main initial efforts consisted in granting the website looks good both on desktop and mobile devices and so any features that required JavaScript or React were left for future improvements.
 
